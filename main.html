@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>My Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- the entire body must be written by student -->
+  
+  <header role="heading">
+    <h1>Welcome to My Portfolio</h1>
+  </header>
 
+  <nav role="navigation">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <img role="img" src="https://via.placeholder.com/150" alt="My Profile Picture">
+
+  <p id="about">Hello! I am a passionate developer building web applications.</p>
+
+  <ul role="list">
+    <li role="listitem">HTML & CSS</li>
+    <li role="listitem">JavaScript</li>
+    <li role="listitem">React.js</li>
+  </ul>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
